@@ -1,0 +1,67 @@
+.account-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .place {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  input[type="text"] {
+    text-transform: capitalize;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px #007bff;
+  }
+  
+  .form-button:hover {
+    background-color: #0062cc;
+    box-shadow: 0px 0px 20px #007bff;
+  }
+  
